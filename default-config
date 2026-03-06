@@ -1,0 +1,21 @@
+{
+  "update_channel": "stable",
+  "min_supported_version": "0.1.0",
+  "relay": {
+    "base_url": "",
+    "request_timeout_seconds": 10,
+    "max_packet_age_minutes": 10,
+    "silence_burn_minutes": 5,
+    "silence_check_seconds": 30
+  },
+  "security": {
+    "burn_on_background_seconds": 30,
+    "noise_enabled_default": false,
+    "noise_interval_seconds": 20
+  },
+  "features": {
+    "enable_remote_burn": true,
+    "enable_noise": true,
+    "enable_debug_status_bar": true
+  }
+}
