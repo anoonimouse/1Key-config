@@ -1,6 +1,8 @@
 {
   "update_channel": "stable",
   "min_supported_version": "0.1.0",
+  "latest_version": "0.1.0",
+  "update_url": "",
   "relay": {
     "base_url": "",
     "request_timeout_seconds": 10,
